@@ -198,7 +198,7 @@ const CERTS = [
   {
     name: "Problem Solving (Basic) — HackerRank",
     image: "./assets/problem_solving_basic certificate.pdf",
-    link: "https://www.hackerrank.com/certificates/xxx",
+    link: "#",
   },
   {
     name: "Participation of Codequezt",

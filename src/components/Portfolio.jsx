@@ -202,7 +202,7 @@ const CERTS = [
   },
   {
     name: "Participation of Codequezt",
-    image: "./assets/NaukriCampus_certificate_Participation.pdf",
+    image: "./assets/naukari.pdf",
     link: "#",
   },
   {

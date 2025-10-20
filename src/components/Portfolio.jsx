@@ -226,6 +226,14 @@ const CONTACT = {
   github:"https://github.com/yaskota"
 };
 
+const openWhatsApp = () => {
+    const phoneNumber = "9347650617"; // Replace with your WhatsApp number
+    const message = encodeURIComponent(
+      "Hello, yaswanth kota"
+    );
+    window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
+  };
+
 // ====== COMPONENT ======
 export default function Portfolio() {
   const [active, setActive] = useState("home");
@@ -510,7 +518,9 @@ export default function Portfolio() {
         </div>
 
         {/* CTA Button */}
-        <button className="mt-6 bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg shadow-md">
+        <button
+          onClick={openWhatsApp}
+         className="mt-6 bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg shadow-md">
           Let’s Chat
         </button>
 

@@ -133,6 +133,14 @@ const PROJECTS = [
     live: "#",
   },
   {
+    name: "e-commerce Platform",
+    desc: "e-commerce website with categories, cart, AdminDashboard, checkout, authentication,payment.",
+    image:
+      "./assets/e commerce.jpg",
+    github: "https://github.com/yaskota/e-commerce_website",
+    live: "https://e-commerce-website-ashen-kappa.vercel.app/",
+  },
+  {
     name: "FoodCart — Ordering Platform",
     desc: "Responsive food ordering with categories, cart, tracking, checkout, and fast navigation.",
     image:
